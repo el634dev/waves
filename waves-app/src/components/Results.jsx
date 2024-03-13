@@ -11,10 +11,10 @@ function Results() {
     const location = useLocation();
 
     useEffect(() => {
-        getResults('/search/keyword=JavaScript&size=30');
+        getResults('query=World%20Cup&limit=20&related_keywords=true');
     }, []);
     
-    // console.log(results);
+    console.log(results);
     if(isLoading) return <Loading />
 
     // console.log(location.pathname) 
@@ -23,9 +23,15 @@ function Results() {
         case '/search':
             return (
                 <div className='flex flex-wrap justify-between space-y-6 sm:px-56'>
-                    {/* {results?.results?.map(({ url, title }) => (
-
-                    ))} */}
+                    {results?.results?.map(({ url, title }, index) => (
+                        <div key={index} className='md:w-2/5 w-full'>
+                            <a href={url} target='_blank' rel='noreferrer'>
+                                <p className='text-sm'>
+                                    {url.length > 30 ? url.substring(0, 30) : url}
+                                </p>
+                            </a>
+                        </div>
+                    ))}
                 </div>
             )
         case '/images':
