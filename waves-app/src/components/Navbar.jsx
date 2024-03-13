@@ -15,7 +15,7 @@ function Navbar({ darkTheme, setDarkTheme }) {
                     type="button" 
                     onClick={() => setDarkTheme(!darkTheme)}
                     className='text-xl dark:border-cyan-900 border-cyan-900 dark:text-blue-200 rounded-full px-2 py-1'>
-                    { darkTheme ? '💡' : '🌙 '}
+                    { darkTheme ? '☼' : '☽'}
                 </button>
             </div>
             <Search />
