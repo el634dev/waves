@@ -10,8 +10,7 @@
 ## Table of Contents
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [Features](#features)
-- [Setup](#setup)
+- [Screenshot](#screenshot)
 - [Usage](#usage)
 - [Project Status](#project-status)
 - [Deployment](#deployment)
@@ -40,13 +39,8 @@ What things you need to install the software and how to install them
 - You may need to initilize Tailwind depending on if you use [Create React App](https://tailwindcss.com/docs/guides/create-react-app) or [Vite](https://tailwindcss.com/docs/guides/vite), the process is different and these doc pages will also show you how to setup your app if you choose to code from scratch.
 - The rest are dependencies and those require either `npm i` or `npm install`, this page can [help](https://www.npmjs.com/) and you can search the package you need
 
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
-
-<!--
-## Screenshots
-![Example screenshot](./img/screenshot.png) -->
-<!-- If you have screenshots you'd like to share, include them here. -->
+## Screenshot
+<img width="661" alt="Screenshot 2024-03-15 at 4 21 47 PM" src="https://github.com/el634dev/waves/assets/84924260/779b15f5-30ce-4c2c-800c-181fae23c691">
 
 ## Usage
 How does one go about using it?
@@ -65,7 +59,7 @@ To deploy this project you could run `npm run build`, this creates a version of 
 - After signup you can login or skip step 1 and log in, go to your overview where you see a space for projects and on the right side click `Add New`
 - After clicking on `Add New` choose what you are adding, this will be project
 - Then aftering the last step, if you choose GitHub you can choose your repository and click on import
-- You are arll done!
+- You are all done!
 
 ## Author
 - Created by [@el634dev](https://github.com/el634dev)
