@@ -48,20 +48,7 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 ![Example screenshot](./img/screenshot.png) -->
 <!-- If you have screenshots you'd like to share, include them here. -->
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-- To start create a new folder and navigate to the folder you created
-- Create a virtual environment by running `python3 -m venv venv` in your terminal, for Windows omit the 3
-- Naivagte to your virtual environment to activtate using `source venv/bin/activate` for Mac
-
-# Note the virtual environment is recommended to avoid conflicts with global Python
-
-- After activating the virtual environment install the dependencies needed using pip or pip3 for Mac
-- Start coding your project just remember to activate and deactivate your virtual environment
-
 ## Usage
-
 How does one go about using it?
 `User can navigate to landing page and see a input bar to search the web`
 `User can a navbar with a hamburger menu and two links`
