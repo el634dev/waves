@@ -34,7 +34,7 @@ const SearchResultHeader = () => {
                 <div className="flex items-center grow">
                     <Link to="/">
                         <img
-                            className="hidden md:block w-[92px] mr-10"
+                            className="md:block w-[92px] mr-10"
                             src={Logo}
                             alt="Logo"
                         />
