@@ -33,7 +33,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 What things you need to install the software and how to install them
 - First you need a code editor of your choice, I use [VSCode](https://code.visualstudio.com/) by Microsoft then you will need the current version of [Node](https://nodejs.org/en) to get your React app created and running on your local server.
-- After you need to choose between Vite or Create React App if you are going to code from scratch, if not then just run `npm install` in your terminal to get your project showing.
+- After you need to choose between Vite or Create React App if you are going to code from scratch, if not then just run `npm install` in your terminal to get your project showing after changing the directory to your project folder(should be the same name as the one you used to create the app).
   - a. If you choose Vite then this article can help with [getting started](https://www.makeuseof.com/set-up-react-app-with-vite/)
   - b. If you choose Create React App then this doc page can [help](https://create-react-app.dev/docs/getting-started/)
 - You may need to initilize Tailwind depending on if you use [Create React App](https://tailwindcss.com/docs/guides/create-react-app) or [Vite](https://tailwindcss.com/docs/guides/vite), the process is different and these doc pages will also show you how to setup your app if you choose to code from scratch.
