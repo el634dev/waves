@@ -24,6 +24,7 @@
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript) - popular lighweight programming language
 - [Vite](https://vitejs.dev/) - Development environment
 - VSCode - Free code editor
+- Google Custom Search Engine - Search engine showing search results page and images
 - Git/GitHub - GitHub is the place to store your projects while Git is a version control tool
 - Postman - used to test API endpoints
 
