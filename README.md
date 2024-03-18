@@ -45,8 +45,11 @@ What things you need to install the software and how to install them
 
 ## Usage
 How does one go about using it?
+>
 `User can navigate to landing page and see a input bar to search the web`
-`User can a navbar with a hamburger menu and two links`
+>
+`User can see a navbar with a hamburger menu and two links`
+>
 `User can see their results on a search results page`
 
 ## Project Status
