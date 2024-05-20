@@ -4,7 +4,7 @@
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
-> Web Application where users can search the web and help the environment, every 10 searches would remove one pound of trash from the ocean
+> Web Application where users can search and find what they need
 >> Live demo [_here_](https://waves-beryl.vercel.app/).
 
 ## Table of Contents
