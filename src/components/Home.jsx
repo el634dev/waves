@@ -2,10 +2,19 @@
 import HomeHeader from "./Navbar";
 import SearchInput from "./SearchInput";
 import Footer from "./Footer";
+import homeBg from "../assets/home-bg.png";
 
 const Home = () => {
     return (
-        <div className="h-[100vh] flex flex-col bg-cyan-700 border-cyan-900 dark:text-blue-200">
+        <div 
+            className="h-[100vh] flex flex-col border-cyan-900 dark:text-blue-200"
+            style={{ 
+                backgroundImage: `url(${homeBg})`, 
+                backgroundSize: 'cover', // Adjust background size as needed
+                backgroundPosition: 'center', // Adjust background position as needed
+                minHeight: '100px' // Ensure the background covers the entire viewport
+            }}
+        >
             <HomeHeader />
             <main className="grow flex justify-center">
                 <div className="w-full px-5 flex flex-col items-center mt-44">
