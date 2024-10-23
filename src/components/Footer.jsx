@@ -3,7 +3,8 @@ import { quickLinks, settingMenu } from '../utils/Constants';
 
 const Footer = () => {
     return (
-        <footer className="bg-cyan-700 border-cyan-900 text-blue-300">
+        // bg-cyan-700
+        <footer className="border-cyan-900 text-blue-300">
             <div className="flex py-[15px] md:px-[30px] border-b border-[#a3a2a2]">
                 <span className="text-[15px] leading-none text-blue-300">
                     United States
