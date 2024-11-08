@@ -3,10 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import { useNavigate, useParams } from "react-router-dom";
 
-import MicIcon from "../assets/mic.svg";
-import ImageIcon from "../assets/image.svg";
-
-const SearchInput = () => {
+export default function SearchInput() {
     const { query } = useParams();
     const [searchQuery, setSearchQuery] = useState(query || "");
     const navigate = useNavigate();
@@ -18,8 +15,7 @@ const SearchInput = () => {
     };
 
     return (
-        <div id='searchBox' className="outline h-[46px] w-full md:w-[584px] flex items-center gap-3 px-4 border border-[#dfe1e5] rounded-3xl bg-white hover:shadow-c hover:border-0 focus-within:shadow-c focus-within:border-0">
-            <AiOutlineSearch size={18} color='#9aa0a6' />
+        <div id='searchBox' className="outline h-[46px] w-full md:w-[580px] md:mr-2 flex items-center gap-3 px-4 border border-[#dfe1e5] rounded-3xl bg-white hover:shadow-c hover:border-0 focus-within:shadow-c focus-within:border-0">
             {/**********/}
             <input 
                 type="text"
@@ -41,9 +37,8 @@ const SearchInput = () => {
                     />
                 )}
                 {/*********/}
+                <AiOutlineSearch size={18} color='#9aa0a6' />
             </div>
         </div>
     );
 };
-
-export default SearchInput;
