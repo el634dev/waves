@@ -1,10 +1,11 @@
 // import Logo from "../assets/waves-logo.png";
 import HomeHeader from "./Navbar";
-import SearchInput from "./SearchInput";
 import Footer from "./Footer";
 import homeBg from "../assets/home-bg.png";
+import Stats from "./Stats";
+import MarineStats from './MarineStats';
 
-const Home = () => {
+export default function Home() {
     return (
         <div 
             className="h-[100vh] flex flex-col border-cyan-900 dark:text-blue-200"
@@ -17,17 +18,18 @@ const Home = () => {
         >
             <HomeHeader />
             <main className="grow flex justify-center">
-                <div className="w-full px-5 flex flex-col items-center mt-44">
-                    {/* Company Logo */}
-                    <h1 className="border-b border-gray-400 font-bold text-5xl mb-5 text-blue-900">WAVES</h1>
+                <div className="w-full px-5 ml-4 flex flex-col items-start mt-44">
+                    <h1 className="border-gray-400 font-semibold tracking-tighter text-5xl mb-5 text-white max-w-[459px]">
+                        One Green Way To Search
+                    </h1>
+                    <h2 className="text-2xl md:text-1xl text-white max-w-[452px] mb-4">
+                        You find what you need,  <br /> we clean the ocean where it's <br /> most needed.
+                    </h2>
                     {/* Search Input Component */}
-                    <SearchInput />
-                    <h1 className="mt-4 text-xl">A cleaner ocean with every search</h1>
-                    <h3 className="mt-3 text-md text-center font-bold"> 🌊 202,592,000 <br/> tons of debris removed by the Waves community</h3>
-                    <div className="flex gap-2 text-[#3c4043] mt-8">
-                        <button className="h-9 px-4 text-sm rounded-md border-none bg-gradient-to-r from-yellow-300 to-orange-400">
-                            Add to Browser - it&apos;s free
-                        </button> 
+                    {/* <SearchInput /> */}
+                    <div className="flex flex-row gap-5 rounded-xl overflow-hidden">
+                        <Stats />
+                        <MarineStats />
                     </div>
                 </div>
             </main>
@@ -36,5 +38,3 @@ const Home = () => {
         </div>
     );
 };
-
-export default Home;
