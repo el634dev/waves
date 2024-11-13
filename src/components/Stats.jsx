@@ -1,6 +1,6 @@
 import React from 'react';
 import StatsItem from './StatsItem';
-import { GiWaterBottle } from "react-icons/gi";
+import { BsTrash3 } from "react-icons/bs";
 
 export default function Stats() {
     const statsData = [
@@ -8,17 +8,19 @@ export default function Stats() {
             value: "207,000,000",
             description: "pounds of debris cleaned by Waves"
         }
-    ]
+    ];
+    
     return (
-        <section className='bg-blue-700 p-5'>
-            <GiWaterBottle />
+        <div className='flex flex-col items-center bg-blue-700 p-5'>
             {statsData.map((item, index) => (
-                <StatsItem 
-                    key={index}
-                    value={item.value}
-                    description={item.description}
-                />
+                <div className='flex items-center mb-4' key={index}>
+                    <BsTrash3 size={38} className='mr-2'/>
+                    <StatsItem
+                        value={item.value}
+                        description={item.description}
+                    />
+                </div>
             ))}
-        </section>
+        </div>
     );
 }
