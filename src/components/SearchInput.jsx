@@ -3,7 +3,7 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { IoMdClose } from "react-icons/io";
 import { useNavigate, useParams } from "react-router-dom";
 
-export default function SearchInput() {
+const SearchInput = () => {
     const { query } = useParams();
     const [searchQuery, setSearchQuery] = useState(query || "");
     const navigate = useNavigate();
@@ -31,14 +31,16 @@ export default function SearchInput() {
                 {searchQuery && (
                     <IoMdClose 
                         size={24}
-                        color='#70757a'
+                        color='#000'
                         className='cursor-pointer'
                         onClick={() => setSearchQuery("")}
                     />
                 )}
                 {/*********/}
-                <AiOutlineSearch size={18} color='#9aa0a6' />
+                <AiOutlineSearch size={18} color='grey' />
             </div>
         </div>
     );
 };
+
+export default SearchInput;
