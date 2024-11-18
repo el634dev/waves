@@ -41,7 +41,9 @@ What things you need to install the software and how to install them
 - The rest are dependencies and those require either `npm i` or `npm install`, this page can [help](https://www.npmjs.com/) and you can search the package you need
 
 ## Screenshot
-<img width="661" alt="Screenshot 2024-03-15 at 4 21 47 PM" src="https://github.com/el634dev/waves/assets/84924260/779b15f5-30ce-4c2c-800c-181fae23c691">
+**Previous Design:** <img width="1402" alt="Screenshot 2024-03-15 at 4 21 47 PM" src="https://github.com/el634dev/waves/assets/84924260/779b15f5-30ce-4c2c-800c-181fae23c691">
+> 
+**Current Design:** <img width="1402" alt="Screenshot 2024-11-18 at 1 13 53 PM" src="https://github.com/user-attachments/assets/e74fb444-deab-41b1-a76c-3cbd28c65cb9">
 
 ## Usage
 How does one go about using it?
@@ -53,10 +55,12 @@ How does one go about using it?
 `User can see their results on a search results page`
 
 ## Project Status
-Project is: _completed_
+- Project is: _being re-designed_
+> 
+- Project is begin re-designed to become more responsive on all devices, modern but clean and screen reader friendly
 
 ## Deployment
-To deploy this project you could run `npm run build`, this creates a version of your project that is bundled and ready for production. However I used Vercel, a frontend deployment tool that is free to help deploy this project. I noticed that running `npm run build` does help Vercel build your project a little faster but that could be because of Vite for creating this project and not Create React App(CRA). 
+To deploy this project you could run `npm run build`, this creates a version of your project that is bundled and ready for production. However I used Vercel, a frontend deployment tool that is free to help deploy this project. I noticed that running `npm run build` does help Vercel build your project a little faster but that could be because of Vite for creating this project and not Create React App (CRA). 
 
 ### Setup on Vercel
 - To create an account sign up using a third-party account such as GitHub or you could do it using a differen username and password, if you use GitHub it will deploy your project straight from GitHub
@@ -69,5 +73,5 @@ To deploy this project you could run `npm run build`, this creates a version of 
 - Created by [@el634dev](https://github.com/el634dev)
 
 ## Acknowledgements
-- This project was inspired by Ecosia.org
+- This project was inspired by Ecosia
 - Hat tip to this video [Build & Deploy Google Search Application](https://www.youtube.com/watch?v=nvWwAYqL2U0&t=7377s)
