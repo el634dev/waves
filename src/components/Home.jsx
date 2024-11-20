@@ -19,10 +19,10 @@ export default function Home() {
             <HomeHeader />
             <main className="grow flex justify-center">
                 <div className="w-full px-5 ml-4 flex flex-col items-start mt-44">
-                    <h1 className="border-gray-400 font-semibold text-5xl mb-5 text-white max-w-[459px]">
+                    <h1 className="border-gray-400 font-medium text-5xl mb-5 text-white max-w-[459px]">
                         One Green Way To Search
                     </h1>
-                    <h2 className="text-2xl md:text-1xl text-white max-w-[452px] mb-4">
+                    <h2 className="text-2xl md:text-xl text-white weight font-normal mb-4">
                         You find what you need,  <br /> we clean the ocean where it's <br /> most needed.
                     </h2>
                     {/* Search Input Component */}
