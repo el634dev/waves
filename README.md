@@ -55,9 +55,8 @@ How does one go about using it?
 `User can see their results on a search results page`
 
 ## Project Status
-- Project is: _being re-designed_
-> 
-- Project is begin re-designed to become more responsive on all devices, modern but clean and screen reader friendly
+- Project is: _complete_
+> Project was re-designed to become more responsive on all devices, modern but clean and screen reader friendly.
 
 ## Deployment
 To deploy this project you could run `npm run build`, this creates a version of your project that is bundled and ready for production. However I used Vercel, a frontend deployment tool that is free to help deploy this project. I noticed that running `npm run build` does help Vercel build your project a little faster but that could be because of Vite for creating this project and not Create React App (CRA). 
